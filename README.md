@@ -17,12 +17,8 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 <div align="center">
 <b><i>Own your intelligence.</i></b><br>
-Open-source guides to build a machine that runs open models on hardware <b>no one can switch off</b> — every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work.
+The best models live in someone else's cloud, behind someone else's terms and someone else's government — a model you rent can be cut off overnight; a model in your own house can't. These are open-source guides to build that machine: every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work. <b>Build it once; own it for good.</b>
 </div>
-
----
-
-> **Why this exists.** The best models live in someone else's cloud, behind someone else's terms and someone else's government. A model you rent can be cut off overnight. A model running in your own house can't. Build it once; own it for good.
 
 ## Pick your configuration
 
