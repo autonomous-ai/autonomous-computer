@@ -51,7 +51,7 @@ VRAM is the constraint that decides which open models fit. Rough guide (exact fi
 3. **Make the housing** — print the STL files or CNC the STEP files in that config's folder.
 4. **Assemble** — follow the config's photo-by-photo assembly guide.
 5. **Set up the software** — drivers, BIOS, and serving open models locally: [`/software`](software/README.md).
-6. **Run your intelligence** — point your agent at `localhost` and never get cut off again.
+6. **Run your intelligence** — point your agent at `localhost` and never get cut off again. Running more than one machine? [**Grid**](https://github.com/autonomous-ai/autonomous-grid) gives them all one endpoint.
 
 ## The configurations
 
@@ -62,6 +62,16 @@ VRAM is the constraint that decides which open models fit. Rough guide (exact fi
 ## Software
 
 Bringing the box to life — OS, NVIDIA drivers, BIOS tuning, serving open models (Ollama / vLLM / llama.cpp), and connecting an agent: [**`/software`**](software/README.md). *(Setup and testing are documented today; local model-serving guides are in progress.)*
+
+### Manage your rig with Grid
+
+Once the box serves a model, [**Grid**](https://github.com/autonomous-ai/autonomous-grid) is how you run it day to day. Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model. Your inference servers (Ollama, vLLM, llama.cpp, LM Studio, MLX) stay exactly where they are; Grid ties them together, on your local network or remotely.
+
+```bash
+curl -fsSL https://grid.autonomous.ai/install.sh | bash
+```
+
+It's a big project with its own repo — quickstart, CLI reference, and how it works: [**autonomous-ai/autonomous-grid**](https://github.com/autonomous-ai/autonomous-grid).
 
 ## Contributing
 
