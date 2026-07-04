@@ -30,16 +30,6 @@ One Personal AI Computer, three configurations — from a home rig to an on-prem
 | **4×** | 4× RTX PRO 6000 Blackwell | 384 GB | **Team** — big models + agents running all day | AMD EPYC 9124 · ASRock Rack | [→ 4× config](builds/4x/README.md) |
 | **8×** | 8× RTX 4090 / 5090 | 192–256 GB | **On-prem business** — a company's AI on its own floor; IP and data never leave | Dual AMD EPYC 9004 (Genoa) | [→ 8× config](builds/8x/README.md) |
 
-## What it can run
-
-VRAM is the constraint that decides which open models fit. Rough guide (exact fit depends on quantization — model specifics live in [`/software`](software/README.md)):
-
-| Build | VRAM | Open models it can serve (e.g.) |
-|---|---|---|
-| 2× RTX 5090 | 64 GB | Llama 70B / Qwen 72B (quantized), 30B-class at full precision, coding + agent models |
-| 4× RTX PRO 6000 | 384 GB | DeepSeek-V3 / R1, Qwen 235B, Llama 405B (quantized) — frontier-class open weights |
-| 8× RTX 4090/5090 | 192–256 GB | Multiple large models served at once, plus headroom for fine-tuning |
-
 ## Quick start
 
 1. **Pick a configuration** above by budget and the models you want to run.
