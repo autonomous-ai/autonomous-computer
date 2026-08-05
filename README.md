@@ -59,7 +59,7 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 
 **[Build the 4× 5090 →](4x-5090/README.md)**
 
-<a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — four RTX 5090s in the cube housing"></a>
+<a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/banner.webp" alt="The 4× 5090 build — four RTX 5090s stacked in the open cube frame over the fan base"></a>
 
 <table>
 <tr>
@@ -83,11 +83,11 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 - **2× AMD EPYC 9004** (ASRock Rack GENOA2D24G-2L+) · 192 GB RAM · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU, over MCIO · 2× 1 GbE · BMC
 - **5,100 W draw** · 8,000 W PSU
-- **15.5″ × 15.5″ × 24″** · 110 lb · CNC-milled anodized aluminum housing
+- **5U rack chassis**
 
 **[Build the 8× 5090 →](8x-5090/README.md)**
 
-<a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the anodized aluminum housing"></a>
+<a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the 5U rack chassis"></a>
 
 <table>
 <tr>
