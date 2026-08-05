@@ -1,6 +1,6 @@
 # 8× NVIDIA RTX 5090
 
-<img src="photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the 5U rack chassis, top cover off">
+<img src="photos/gallery/finish-build.webp" alt="The finished 8× 5090 — eight GPUs in the 5U rack chassis, top cover off">
 
 The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a 5U rack chassis. A team's AI on your own floor, where your IP and data never leave the building.
 

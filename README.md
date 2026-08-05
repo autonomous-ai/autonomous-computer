@@ -87,7 +87,7 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 
 **[Build the 8× 5090 →](8x-5090/README.md)**
 
-<a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the 5U rack chassis"></a>
+<a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — 5U rack chassis, top cover off, both GPU columns and the center fan wall"></a>
 
 <table>
 <tr>
@@ -99,8 +99,6 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 <td width="50%"><img src="8x-5090/photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
 </tr>
 </table>
-
-<img src="8x-5090/photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — top cover off, both GPU columns and the center fan wall">
 
 
 ## 4× NVIDIA RTX PRO 6000
