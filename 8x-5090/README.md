@@ -1,10 +1,6 @@
 # 8× NVIDIA RTX 5090
 
-
-
-https://github.com/user-attachments/assets/0b51e9fc-8865-4e1a-966e-9ce01fe8d8de
-
-
+<img src="photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the 5U rack chassis, top cover off">
 
 The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a 5U rack chassis. A team's AI on your own floor, where your IP and data never leave the building.
 
@@ -33,6 +29,21 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 <td width="50%"><img src="photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
 </tr>
 </table>
+
+## Inside the machine
+
+<table>
+<tr>
+<td width="50%"><img src="photos/8gpu/assembly-rack/09-gpu.webp" alt="An RTX 5090 seated in the chassis, 12V-2x6 power connected"></td>
+<td width="50%"><img src="photos/8gpu/assembly-rack/08-gpu-mount-panel.webp" alt="The numbered GPU rails and the MCIO and power cabling laid into the chassis"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/8gpu/assembly-rack/10-insert-fan-cage.webp" alt="A fan cage sliding into the center block, GPU5 and GPU6 rails alongside"></td>
+<td width="50%"><img src="photos/8gpu/assembly-rack/11-insert-psu.webp" alt="A 2,000 W CRPS module sliding into the rear power bay"></td>
+</tr>
+</table>
+
+https://github.com/user-attachments/assets/0b51e9fc-8865-4e1a-966e-9ce01fe8d8de
 
 ## BIOS notes and testing
 
@@ -64,7 +75,7 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## The finished machine
 
-<img src="photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — side panel off, both GPU columns and the center fan wall">
+<img src="photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — top cover off, both GPU columns and the center fan wall">
 
 ## Other builds
 

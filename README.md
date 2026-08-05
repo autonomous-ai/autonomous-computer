@@ -91,16 +91,16 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 
 <table>
 <tr>
-<td width="50%"><img src="8x-5090/photos/gallery/parts-layout.webp" alt="Every part laid out before assembly"></td>
-<td width="50%"><img src="8x-5090/photos/gallery/mcio-adapter.webp" alt="Placing an MCIO adapter"></td>
+<td width="50%"><img src="8x-5090/photos/gallery/dual-socket-board.webp" alt="The dual-EPYC (Genoa) board — two SP5 sockets and twenty-four DIMM slots"></td>
+<td width="50%"><img src="8x-5090/photos/gallery/card-install.webp" alt="Seating an RTX 5090 into the chassis"></td>
 </tr>
 <tr>
-<td width="50%"><img src="8x-5090/photos/gallery/pcie-adapters.webp" alt="Cabling the PCIe adapters"></td>
-<td width="50%"><img src="8x-5090/photos/gallery/gpu-install.webp" alt="Installing the GPUs"></td>
+<td width="50%"><img src="8x-5090/photos/gallery/interior-topdown.webp" alt="Top-down — the PCIe adapter boards, the center fan wall, and the MCIO cabling"></td>
+<td width="50%"><img src="8x-5090/photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
 </tr>
 </table>
 
-<img src="8x-5090/photos/gallery/finished.webp" alt="The finished 8× 5090">
+<img src="8x-5090/photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — top cover off, both GPU columns and the center fan wall">
 
 
 ## 4× NVIDIA RTX PRO 6000
