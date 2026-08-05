@@ -19,4 +19,4 @@ Quantities are per machine — one 8× GPU build. Part photos are in the [compon
 | 13  | GPU power cable           | 12V-2x6 / 12VHPWR, 600 W rated               |  8  | Cable      | One per GPU                                   |
 | 14  | Fan                       | Case fan                                     | 12  | Cooling    |                                               |
 | 15  | Fan hub                   | Fan control board                            |  1  | Cooling    |                                               |
-| 16  | Frame housing             | CNC-milled aluminum housing, full set        |  1  | Housing    | CNC the [STEPs](../step_models); [housing guide](../docs/prepare-me.md) |
+| 16  | Chassis                   | 5U rack chassis kit                          |  1  | Housing    | Ships complete — [housing prep](../docs/prepare-me.md) |

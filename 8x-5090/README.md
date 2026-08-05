@@ -6,20 +6,20 @@ https://github.com/user-attachments/assets/0b51e9fc-8865-4e1a-966e-9ce01fe8d8de
 
 
 
-The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a CNC-milled, anodized aluminum housing. A team's AI on your own floor, where your IP and data never leave the building.
+The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a 5U rack chassis. A team's AI on your own floor, where your IP and data never leave the building.
 
 - **8× NVIDIA RTX 5090** — 256 GB VRAM · 14,336 GB/s · 1,676 FP32 TFLOPS
 - **2× AMD EPYC 9004** (ASRock Rack GENOA2D24G-2L+) · 192 GB RAM · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU, over MCIO · 2× 1 GbE · BMC
 - **5,100 W draw** · 8,000 W PSU
-- **15.5″ × 15.5″ × 24″** · 110 lb
+- **5U rack chassis**
 
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
-2. **Housing** — the [STEP files](step_models) (STL versions in [stl-models](stl-models)).
+2. **Housing** — the [5U chassis kit](docs/prepare-me.md) ships complete.
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
-4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 39 steps from bare plates to a running machine.
+4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 13 steps from bare chassis to first boot.
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
 6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
@@ -50,16 +50,7 @@ Board references: [motherboard manual](docs/um-motherboard.pdf) · [BMC manual](
 
 Then make sure all eight cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
-<table>
-    <tr>
-        <td align="center">
-            <img src="photos/8gpu/testing/Nvtop.png" width="700" alt="nvtop with all eight GPUs live">
-        </td>
-        <td align="center">
-            <img src="photos/8gpu/assembly/40.png" width="400" alt="The assembled 8× 5090">
-        </td>
-    </tr>
-</table>
+<img src="photos/8gpu/testing/Nvtop.png" width="700" alt="nvtop with all eight GPUs live">
 
 ## Serve your models
 
@@ -78,6 +69,8 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 ## Other builds
 
 Smaller footprint? The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 5090](../4x-5090/README.md) (the team build), and the [4× 6000](../4x-6000/README.md) (384 GB VRAM) use the same playbook.
+
+This build was previously housed in a CNC-milled desktop tower — those docs and CAD files are kept in [`archive/`](archive).
 
 ## License
 
