@@ -12,6 +12,10 @@ The team build: four RTX 5090s in a cube housing on an AMD Ryzen Threadripper PR
 
 > **Draft guide** — component photos are representative and a few specs are still being confirmed; the real build photos, the board manual, and a testing screenshot are landing soon.
 
+## Prefer a finished machine?
+
+Building from this guide is the full DIY path. If you'd rather skip sourcing, CNC, and assembly, we have it covered — [order a Personal AI Computer](https://www.autonomous.ai/computer-4).
+
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).

@@ -10,6 +10,10 @@ The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform.
 - **1,550 W draw** · 1,600 W PSU
 - **12.5″ × 12.5″ × 16″** · 33 lb
 
+## Prefer a finished machine?
+
+Building from this guide is the full DIY path. If you'd rather skip sourcing, CNC, and assembly, we have it covered — [order a Personal AI Computer](https://www.autonomous.ai/computer-2).
+
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
