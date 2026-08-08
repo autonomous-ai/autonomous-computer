@@ -2,6 +2,10 @@
 
 https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 
+## Prefer a finished machine?
+
+Building from this guide is the full DIY path. If you'd rather skip sourcing, CNC, and assembly, we have it covered — [order a Personal AI Computer](https://www.autonomous.ai/computer/buy).
+
 ## The future of AI is local
 
 AI in 2026 looks like computing in 1975: the intelligence lives in a few mainframes, owned by a few companies, and you rent it by the token. Everyone knows how that movie ends. The machine moves onto the desk — and the people who own their machines build everything that comes next.
@@ -29,7 +33,7 @@ The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek wi
 - **1,550 W draw** · 1,600 W PSU
 - **12.5″ × 12.5″ × 16″** · 33 lb
 
-**[Build the 2× 5090 →](2x-5090/README.md)**
+**[Build the 2× 5090 →](2x-5090/README.md)** · **[Or order it built →](https://www.autonomous.ai/computer-2)**
 
 <a href="2x-5090/README.md"><img src="2x-5090/photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame"></a>
 
@@ -57,7 +61,7 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 - **2,750 W draw** · 4,000 W PSU
 - **20″ × 20″ × 24″** · 66 lb
 
-**[Build the 4× 5090 →](4x-5090/README.md)**
+**[Build the 4× 5090 →](4x-5090/README.md)** · **[Or order it built →](https://www.autonomous.ai/computer-4)**
 
 <a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/banner.webp" alt="The 4× 5090 build — four RTX 5090s stacked in the open cube frame over the fan base"></a>
 
@@ -85,7 +89,7 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 - **5,100 W draw** · 8,000 W PSU
 - **5U rack chassis**
 
-**[Build the 8× 5090 →](8x-5090/README.md)**
+**[Build the 8× 5090 →](8x-5090/README.md)** · **[Or order it built →](https://www.autonomous.ai/computer-8)**
 
 <a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — 5U rack chassis, top cover off, both GPU columns and the center fan wall"></a>
 
