@@ -10,6 +10,10 @@ The server build — rack-ready for on-prem and the data center: four RTX PRO 60
 - **3× 2,000 W** CRPS
 - **5U rack chassis**
 
+## Prefer a finished machine?
+
+Building from this guide is the full DIY path. If you'd rather skip sourcing, CNC, and assembly, we have it covered — [order the 4× 6000 built](https://www.autonomous.ai/computer-4).
+
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
