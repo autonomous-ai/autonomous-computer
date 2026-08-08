@@ -10,6 +10,10 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 - **5,100 W draw** · 8,000 W PSU
 - **5U rack chassis**
 
+## Prefer a finished machine?
+
+Building from this guide is the full DIY path. If you'd rather skip sourcing, CNC, and assembly, we have it covered — [order the 8× 5090 built](https://www.autonomous.ai/computer-8).
+
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
