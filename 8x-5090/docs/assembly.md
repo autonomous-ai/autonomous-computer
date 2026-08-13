@@ -4,9 +4,9 @@ Order of assembly for one 5U server — the GENOA2D24G-2L+ board, two EPYC 9004 
 
 | Step | Description | Image |
 |:----:|:------------|:------|
-|  1   | Work through the [component checklist](prepare-ee.md) and lay every part out on the build desk. | |
-|  2   | Seat the motherboard in the chassis and secure it with the standoffs and screws. | |
-|  3   | Connect the power button and the front-panel wiring to the motherboard headers. | |
+|  1   | Work through the [component checklist](prepare-ee.md) and lay every part out on the build desk. | ![](../photos/8gpu/assembly-rack/01-parts-desk.webp) ![](../photos/8gpu/assembly-rack/01-gpu-fan-desk.webp) |
+|  2   | Seat the motherboard in the chassis and secure it with the standoffs and screws. | ![](../photos/8gpu/assembly-rack/02-mobo-chassis.webp) |
+|  3   | Connect the power button and the front-panel wiring to the motherboard headers. | ![](../photos/8gpu/assembly-rack/03-front-panel-wiring.webp) |
 |  4   | Install both CPUs into the SP5 sockets, then mount the CPU heatsinks. | ![](../photos/8gpu/assembly-rack/04-cpu-heatsink.webp) ![](../photos/8gpu/assembly-rack/04-cpu-fan-detail.webp) |
 |  5   | Populate the DDR5 ECC RDIMMs, following the board's DIMM population order. | ![](../photos/8gpu/assembly-rack/05-ram.webp) ![](../photos/8gpu/assembly-rack/05-insert-ram.webp) |
 |  6   | Connect the MCIO cables to the motherboard — two per GPU (x16 = 2× x8). | ![](../photos/8gpu/assembly-rack/06-mcio-mobo.webp) |
