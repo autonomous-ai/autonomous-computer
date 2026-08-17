@@ -1,16 +1,6 @@
 # 2× NVIDIA RTX PRO 6000
 
-[**▶ Watch the build — two RTX PRO 6000s going in, 22 seconds**](photos/2x-6000-build.mp4) · 720p, 3.7 MB
-
-<!--
-  To turn the line above into an inline player: open a new issue on this repo,
-  drag photos/2x-6000-build.mp4 into the comment box, wait for the upload to
-  finish, then paste the resulting
-  https://github.com/user-attachments/assets/<uuid> URL here on its own line
-  (replacing the link above) and close the issue without submitting. GitHub only
-  renders the player for user-attachments URLs — a repo file path always renders
-  as a plain link, which is what the line above is.
--->
+https://github.com/user-attachments/assets/f8960659-55fd-4ed9-966d-386108cae02e
 
 The workstation build: two RTX PRO 6000 Blackwell GPUs on an Intel Xeon W platform, in the same desk-sized housing as the [2× 5090](../2x-5090/README.md). 192 GB of ECC VRAM — three times the 2× 5090 in the same box, enough to run the big open models unquantized without leaving your desk.
 
