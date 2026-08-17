@@ -2,15 +2,15 @@
 
 Every part in the [bill of materials](../bom/bom.md), photographed. Lay them all out before you start assembly.
 
-> The GPU (item 8) is a product image — a photo from this build is coming. Every other part is shared with the 2× 5090.
+> The GPU (item 8) is photographed from this build. Every other part is shared with the 2× 5090.
 
 <table>
     <tr>
         <td valign="top" align="center" width="50%">
             <b>1. Motherboard — ASUS W790 ACE</b><br>
-            <img src="../photos/2gpu/preparing/ee/motherboard_w790.png" width="400"><br>
+            <img src="../photos/2gpu/preparing/ee/motherboard_w790.webp" width="400"><br>
             <b>3. CPU — Intel Xeon W5</b><br>
-            <img src="../photos/2gpu/preparing/ee/Intel-Xeon-w5.jpg" width="400"><br>
+            <img src="../photos/2gpu/preparing/ee/Intel-Xeon-w5.webp" width="400"><br>
             <b>5. SSD — NVMe 1 TB</b><br>
             <img src="../photos/2gpu/preparing/ee/SSD.png" width="400"><br>
             <b>7. RAM — DDR5 48 GB</b><br>

@@ -1,6 +1,6 @@
 # 2× NVIDIA RTX PRO 6000
 
-<!-- Hero photo and the build video land here once the shots are in. -->
+<img src="photos/gallery/hero.webp" alt="The 2× 6000 build — two RTX PRO 6000s on the open frame with the fan tray on top">
 
 The workstation build: two RTX PRO 6000 Blackwell GPUs on an Intel Xeon W platform, in the same desk-sized housing as the [2× 5090](../2x-5090/README.md). 192 GB of ECC VRAM — three times the 2× 5090 in the same box, enough to run the big open models unquantized without leaving your desk.
 
@@ -10,7 +10,7 @@ The workstation build: two RTX PRO 6000 Blackwell GPUs on an Intel Xeon W platfo
 - **1,600 W draw** · 1,600 W PSU
 - **12.5″ × 12.5″ × 16″** · 33 lb
 
-> **Draft guide** — same housing, board, and power as the 2× 5090; only the GPUs change. The GPU photo is a product image and the assembly photos are from the 2× 5090 build (the steps are identical); real 2× 6000 build photos, a build video, and a testing screenshot are landing soon.
+> **Draft guide** — same housing, board, and power as the 2× 5090; only the GPUs change. The step-by-step assembly photos are from the 2× 5090 build, since the 23 steps are identical; a testing screenshot from this build is landing soon.
 
 ## Prefer a finished machine?
 
@@ -25,7 +25,33 @@ Building from this guide is the full DIY path. If you'd rather skip sourcing, CN
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
 6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
-<!-- Build gallery goes here — the same four-up table as the other builds. -->
+<table>
+<tr>
+<td width="50%"><img src="photos/gallery/gpu-card.webp" alt="An RTX PRO 6000 Blackwell out of the box"></td>
+<td width="50%"><img src="photos/gallery/gpu-card-flat.webp" alt="The card end-on — two slots wide, blower-free triple-fan cooler"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/gpu-seating.webp" alt="Lowering the second RTX PRO 6000 onto the riser"></td>
+<td width="50%"><img src="photos/gallery/gpu-install.webp" alt="Both cards seated over the motherboard tray"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/gpu-pair.webp" alt="Both RTX PRO 6000s mounted, 12VHPWR cables routed"></td>
+<td width="50%"><img src="photos/gallery/cabling.webp" alt="Cable routing down the side of the frame"></td>
+</tr>
+</table>
+
+## Watch the build
+
+[**▶ Two RTX PRO 6000s going in — 22 seconds**](photos/2x-6000-build.mp4) · 720p, 3.7 MB
+
+<!--
+  To upgrade this link to an inline player: open a new issue on this repo, drag
+  photos/2x-6000-build.mp4 into the comment box, wait for the upload to finish,
+  then paste the resulting https://github.com/user-attachments/assets/<uuid> URL
+  here on its own line (replacing the link above) and close the issue without
+  submitting. GitHub only renders the player for user-attachments URLs — a repo
+  file path always renders as a plain link, which is what the line above is.
+-->
 
 ## Why the PRO 6000 over the 5090
 
@@ -67,7 +93,14 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## The finished machine
 
-<!-- Finished-machine photo lands here. -->
+<img src="photos/gallery/finished.webp" alt="The finished 2× 6000 — panels on, ports and PSU at the back">
+
+<table>
+<tr>
+<td width="50%"><img src="photos/gallery/front-view.webp" alt="Front view — both cards behind the mesh"></td>
+<td width="50%"><img src="photos/gallery/finished-open.webp" alt="Carrying the finished machine off the bench"></td>
+</tr>
+</table>
 
 ## Other builds
 
