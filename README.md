@@ -20,7 +20,7 @@ The Personal AI Computer is that machine. The models are good, the GPUs are affo
 
 Open software lets you run and shape your AI; open hardware lets you build, repair, and improve the machine it runs on. With both in your hands — the code, the CAD, the BOM, the BIOS settings — you can build the whole thing end to end. So we open-source both:
 
-- **Open Source Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
+- **Open Source Hardware — this repo.** Your Personal AI Computer in five builds, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Open Source Software — your choice.** The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI — but any local AI engine works: vLLM, Ollama, llama.cpp.
 
 ## 2× NVIDIA RTX 5090
@@ -49,6 +49,34 @@ The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek wi
 </table>
 
 <img src="2x-5090/photos/gallery/finished.webp" alt="The finished 2× 5090">
+
+
+## 2× NVIDIA RTX PRO 6000
+
+The same desk-sized box, three times the VRAM. 192 GB of ECC memory on two cards — run the big open models as released instead of quantizing them down to fit.
+
+- **2× NVIDIA RTX PRO 6000 Blackwell** — 192 GB GDDR7 ECC · 3,584 GB/s (96 GB per card)
+- **Intel Xeon W5** (ASUS W790 ACE) · 96 GB RAM · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU · 10 GbE + 2.5 GbE
+- **1,600 W draw** · 1,600 W PSU
+- **12.5″ × 12.5″ × 16″** · 33 lb
+
+**[Build the 2× 6000 →](2x-6000/README.md)**
+
+<a href="2x-6000/README.md"><img src="2x-6000/photos/gallery/hero.webp" alt="The 2× 6000 build — two RTX PRO 6000s on the open frame with the fan tray on top"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="2x-6000/photos/gallery/gpu-card-flat.webp" alt="The RTX PRO 6000 end-on"></td>
+<td width="50%"><img src="2x-6000/photos/gallery/gpu-seating.webp" alt="Lowering the second card onto the riser"></td>
+</tr>
+<tr>
+<td width="50%"><img src="2x-6000/photos/gallery/gpu-pair.webp" alt="Both cards mounted, 12VHPWR cables routed"></td>
+<td width="50%"><img src="2x-6000/photos/gallery/cabling.webp" alt="Cable routing down the side of the frame"></td>
+</tr>
+</table>
+
+<img src="2x-6000/photos/gallery/finished.webp" alt="The finished 2× 6000">
 
 
 ## 4× NVIDIA RTX 5090

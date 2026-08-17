@@ -18,12 +18,11 @@ Building from this guide is the full DIY path. If you'd rather skip sourcing, CN
 
 ## Build it
 
-1. **Parts** — the [bill of materials](bom/bom.md).
+1. **Parts** — the [bill of materials](bom/bom.md), with a photo of every component. Lay them all out and check them off before you start.
 2. **Housing** — the [STL files](../2x-5090/stl-models) and the [STEP files](../2x-5090/step_models). Identical to the 2× 5090 housing, so the files live there.
-3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
-4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
-5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
-6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
+3. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
+4. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+5. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
 <table>
 <tr>
