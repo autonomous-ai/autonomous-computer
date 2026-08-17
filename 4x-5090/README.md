@@ -66,7 +66,7 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## Other builds
 
-The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 6000](../4x-6000/README.md) (384 GB VRAM), and the [8× 5090](../8x-5090/README.md) (on-prem scale) round out the family.
+The [2× 5090](../2x-5090/README.md) (start tonight), the [2× 6000](../2x-6000/README.md) (desk-sized, 192 GB VRAM), the [4× 6000](../4x-6000/README.md) (384 GB VRAM), and the [8× 5090](../8x-5090/README.md) (on-prem scale) round out the family.
 
 ## License
 

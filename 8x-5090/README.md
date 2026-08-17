@@ -83,7 +83,7 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## Other builds
 
-Smaller footprint? The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 5090](../4x-5090/README.md) (the team build), and the [4× 6000](../4x-6000/README.md) (384 GB VRAM) use the same playbook.
+Smaller footprint? The [2× 5090](../2x-5090/README.md) (start tonight), the [2× 6000](../2x-6000/README.md) (desk-sized, 192 GB VRAM), the [4× 5090](../4x-5090/README.md) (the team build), and the [4× 6000](../4x-6000/README.md) (384 GB VRAM) use the same playbook.
 
 This build was previously housed in a CNC-milled desktop tower — those docs and CAD files are kept in [`archive/`](archive).
 

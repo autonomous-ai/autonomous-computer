@@ -86,7 +86,7 @@ Alternative build options brainstormed before settling on this baseline — Turi
 
 ## Other builds
 
-The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 5090](../4x-5090/README.md) (the team build), and the [8× 5090](../8x-5090/README.md) (on-prem scale) scale the same idea down and up.
+The [2× 5090](../2x-5090/README.md) (start tonight), the [2× 6000](../2x-6000/README.md) (the same cards, desk-sized), the [4× 5090](../4x-5090/README.md) (the team build), and the [8× 5090](../8x-5090/README.md) (on-prem scale) scale the same idea down and up.
 
 ## License
 
