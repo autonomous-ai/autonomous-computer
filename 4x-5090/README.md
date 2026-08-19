@@ -1,6 +1,6 @@
 # 4× NVIDIA RTX 5090
 
-<img src="photos/gallery/hero.webp" alt="The 4× 5090 build — four RTX 5090s in the cube housing">
+<img src="photos/gallery/banner.webp" alt="The 4× 5090 build — four RTX 5090s stacked in the open cube frame over the fan base">
 
 The team build: four RTX 5090s in a cube housing on an AMD Ryzen Threadripper PRO platform. Built for larger open models like Kimi, MiniMax, and GLM. No API bills. Low latency. Private data.
 
