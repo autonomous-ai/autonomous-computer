@@ -1,21 +1,31 @@
 # Assembly
 
-Order of assembly for one 5U server — the TURIN2D24G-2L+ board, one EPYC 9124, and four RTX PRO 6000 GPUs in the ASRock 5U chassis. Step photos are added as the build is documented.
+Order of assembly for one 4× RTX PRO 6000 machine — the Pro WS W790E-SAGE SE board, one Xeon w5-3423, and four RTX PRO 6000 Blackwell cards in the milled aluminium cube. Step photos are added as the build is documented.
 
 | Step | Description |
 |:----:|:------------|
-|  1   | Prepare all components — the [bill of materials](../bom/bom.md) and the [housing prep](prepare-me.md). |
-|  2   | Install the CPU into the SP5 socket on the TURIN2D24G-2L+ motherboard. |
-|  3   | Mount the COOLSERVER 2U SP5 S22 heatsink onto the CPU. |
-|  4   | Populate the 8 DDR5 ECC RDIMMs (48 GB each, 384 GB total), following the board's DIMM population order. |
-|  5   | Install the Samsung 990 EVO Plus NVMe SSD into the M.2 slot. |
-|  6   | Seat the motherboard in the 5U chassis and secure it with the standoffs and screws. |
-|  7   | Install the three CRPS PSUs and connect them to the power board. |
-|  8   | Route the motherboard and peripheral power cables from the power board. |
-|  9   | Install the four NVIDIA RTX PRO 6000 Blackwell GPUs and secure them to the support rail. |
-|  10  | Connect the GPU power cables and verify the retention clips. |
-|  11  | Connect the MCIO cables between the motherboard and the GPU PCIe risers. |
-|  12  | Connect the chassis fans to the fan board and verify the PWM headers. |
-|  13  | Close the chassis, connect the AC inlet, and perform first-boot. |
+|  1   | Prepare the housing parts — the [housing prep](prepare-me.md). |
+|  2   | Attach the first side to the base. |
+|  3   | Attach the other side to the base. |
+|  4   | Attach the top to the housing. |
+|  5   | Attach the brass hex standoffs to the back side. |
+|  6   | Mount the four PCIe 5.0 risers to the mount plate. |
+|  7   | Attach the fan plate to the mount. |
+|  8   | Mount the fans to the fan plate and the base. |
+|  9   | Place the motherboard on the mount. |
+|  10  | Screw the motherboard down to the mount. |
+|  11  | Connect the four PCIe risers to the motherboard. |
+|  12  | Seat the four RTX PRO 6000s in the riser slots. |
+|  13  | Screw the GPUs down to the mount. |
+|  14  | Attach the two power supplies to the base. |
+|  15  | Connect the cables on the PSU side. |
+|  16  | Connect the ATX cable to the motherboard. |
+|  17  | Connect the EPS / CPU power connectors to the motherboard. |
+|  18  | Connect the CPU fan and the fan controller to the motherboard. |
+|  19  | Connect the 12V-2x6 power cables to the four GPUs. |
+|  20  | All electronics installed. |
+|  21  | Attach one side panel of the housing. |
+|  22  | Attach the other side panel. |
+|  23  | Fit the final panel — done. |
 
 ---

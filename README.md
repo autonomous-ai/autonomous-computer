@@ -107,6 +107,32 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 <img src="4x-5090/photos/gallery/finished.webp" alt="The finished 4× 5090">
 
 
+## 4× NVIDIA RTX PRO 6000
+
+The team build, in ECC. 384 GB of VRAM: fine-tune and serve the biggest open models as released, for a whole team.
+
+- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB GDDR7 ECC · 7,168 GB/s (96 GB per card)
+- **Intel Xeon w5-3423** (ASUS Pro WS W790E-SAGE SE) · 192 GB DDR5 ECC · 2 TB NVMe
+- **PCIe Gen 5 ×16** per GPU — 112 lanes across seven slots
+- **4,000 W** — 2× 2,000 W, native 12V-2×6 · 240 V circuit
+- **19.8″ × 19.8″ × 24.2″** · 66 lb
+
+**[Build the 4× 6000 →](4x-6000/README.md)**
+
+<a href="4x-6000/README.md"><img src="4x-6000/photos/gallery/banner.jpg" alt="The 4× 6000 build — four RTX PRO 6000s stacked in the open cube frame over the fan base"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="4x-6000/photos/gallery/cooler-mount.jpg" alt="Mounting a GPU to the frame"></td>
+<td width="50%"><img src="4x-6000/photos/gallery/gpu-stack.jpg" alt="All four RTX PRO 6000s on the frame"></td>
+</tr>
+<tr>
+<td width="50%"><img src="4x-6000/photos/gallery/chassis-detail.webp" alt="The milled aluminium panel up close"></td>
+<td width="50%"><img src="4x-6000/photos/gallery/finished.jpg" alt="The finished 4× 6000 — panels on"></td>
+</tr>
+</table>
+
+
 ## 8× NVIDIA RTX 5090
 
 The on-prem build, for business. Develop, serve, and fine-tune with open models — the work that should never leave your floor.
@@ -132,33 +158,6 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 </tr>
 </table>
 
-
-## 4× NVIDIA RTX PRO 6000
-
-The server build — rack-ready for on-prem and the data center. 384 GB of VRAM: fine-tune and serve the biggest open models.
-
-- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB GDDR7 ECC · 7,168 GB/s (96 GB per card)
-- **AMD EPYC 9124** (ASRock Rack TURIN2D24G-2L+) · 384 GB DDR5 ECC · 1 TB NVMe
-- **PCIe Gen 5 ×16** per GPU, over MCIO · BMC
-- **3× 2,000 W** CRPS
-- **5U rack chassis**
-
-**[Build the 4× 6000 →](4x-6000/README.md)**
-
-<a href="4x-6000/README.md"><img src="4x-6000/photos/gallery/hero-rack.jpg" alt="The 4× 6000 build racked — 5U chassis in the server rack"></a>
-
-<table>
-<tr>
-<td width="50%"><img src="4x-6000/photos/gallery/gpu-install.jpg" alt="Installing the RTX PRO 6000s"></td>
-<td width="50%"><img src="4x-6000/photos/gallery/gpu-row.jpg" alt="Four flow-through RTX PRO 6000s over the airflow modules"></td>
-</tr>
-<tr>
-<td width="50%"><img src="4x-6000/photos/gallery/interior.jpg" alt="Full chassis interior — GPUs, fan wall, dual-SP5 board"></td>
-<td width="50%"><img src="4x-6000/photos/gallery/mcio-risers.jpg" alt="MCIO riser boards before the GPUs go in"></td>
-</tr>
-</table>
-
-<img src="4x-6000/photos/gallery/power-detail.jpg" alt="GPU power cabling detail">
 
 ## Software
 

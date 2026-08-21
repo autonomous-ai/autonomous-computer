@@ -1,16 +1,22 @@
 # Bill of Materials
 
-Quantities are **per server** — one 5U chassis with 4× RTX PRO 6000 GPUs. Lay every part out and check it off before assembly.
+Quantities are per machine — one 4× RTX PRO 6000 build. Lay every part out and check it off before assembly.
 
-> Component photos are from this build; the SSD and PSU are still representative product images. Click a thumbnail to enlarge.
+> Draft — component photos from this build are landing soon.
 
-| No  | Item         | Image | Detail                                                                                                                                | Qty | Category      | Notes                                                                                |
-|:---:|:-------------|:-----:|:--------------------------------------------------------------------------------------------------------------------------------------|:---:|:--------------|:-------------------------------------------------------------------------------------|
-|  1  | Mainboard    | <a href="../photos/4gpu/preparing/ee/motherboard.webp"><img src="../photos/4gpu/preparing/ee/motherboard.webp" width="90"></a> | ASRock Rack TURIN2D24G-2L+ / 500W                                                                                                     |  1  | Mainboard     | Dual SP5; designed for EPYC 9005 (Turin) — confirm 9004 (Genoa) BIOS support for 9124 |
-|  2  | CPU          | <a href="../photos/4gpu/preparing/ee/cpu.webp"><img src="../photos/4gpu/preparing/ee/cpu.webp" width="90"></a> | AMD EPYC 9124                                                                                                                         |  1  | Processor     | 16C/32T Zen4, SP5, 200W (single-socket on a dual-socket board)                        |
-|  3  | CPU Heatsink | <a href="../photos/4gpu/preparing/ee/cpu-heatsink.webp"><img src="../photos/4gpu/preparing/ee/cpu-heatsink.webp" width="90"></a> | COOLSERVER 2U AMD EPYC SP5 S22 — 6 heat pipes, L118 × W92.4 × H66.3 mm, PWM 2600–8000 RPM, 52.50 dB (max), 47.20 CFM, 4-pin PWM, 380 W |  1  | Cooling       |                                                                                      |
-|  4  | RAM          | <a href="../photos/4gpu/preparing/ee/ram.webp"><img src="../photos/4gpu/preparing/ee/ram.webp" width="90"></a> | DDR5 ECC RDIMM 48 GB @ 5600 MT/s                                                                                                      |  8  | Memory        | 384 GB total                                                                          |
-|  5  | SSD          | <a href="../photos/4gpu/preparing/ee/ssd.webp"><img src="../photos/4gpu/preparing/ee/ssd.webp" width="90"></a> | Samsung 990 EVO Plus 1TB NVMe                                                                                                         |  1  | Storage       |                                                                                      |
-|  6  | GPU          | <a href="../photos/gallery/card-detail.jpg"><img src="../photos/4gpu/preparing/ee/gpu.webp" width="90"></a> | NVIDIA RTX PRO 6000 Blackwell Workstation Edition (reference board 900-5G144-2200-000)                                                |  4  | Graphics Card |                                                                                      |
-|  7  | PSU          | <a href="../photos/4gpu/preparing/ee/psu.webp"><img src="../photos/4gpu/preparing/ee/psu.webp" width="90"></a> | Changcheng (Great Wall) 2000W CRPS                                                                                                    |  3  | Power Supply  | 6000W total                                                                           |
-|  8  | 5U Case      | <a href="../photos/4gpu/preparing/ee/chassis.webp"><img src="../photos/4gpu/preparing/ee/chassis.webp" width="90"></a> | ASRock 5U850 Gen5 chassis (case, cable harness, power board included) — supports up to 8 GPUs, populated with 4                       |  1  | Housing       |                                                                                      |
+| No  | Item              | Detail                                          | Qty | Category   | Notes                                                                     |
+|:---:|:------------------|:------------------------------------------------|:---:|:-----------|:--------------------------------------------------------------------------|
+|  1  | Mainboard         | ASUS Pro WS W790E-SAGE SE                       |  1  | Mainboard  | Intel W790, LGA 4677; 7× PCIe 5.0 ×16                                     |
+|  2  | CPU               | Intel Xeon w5-3423                              |  1  | Processor  | 12 cores, LGA 4677, 112 PCIe 5.0 lanes                                    |
+|  3  | CPU heatsink      | Heatsink 4677-2UAF8                             |  1  | Cooling    | LGA 4677                                                                  |
+|  4  | RAM               | 32 GB DDR5-4800 ECC                             |  6  | Memory     | 192 GB total; configurable 64–256 GB                                      |
+|  5  | SSD               | 2 TB NVMe PCIe 4.0                              |  1  | Storage    | Configurable 1–8 TB; Gen 5 at 8 TB                                        |
+|  6  | GPU               | NVIDIA RTX PRO 6000 Blackwell Workstation Edition |  4  | Graphics   | 96 GB GDDR7 ECC each — 384 GB total                                      |
+|  7  | PCIe 5.0 riser    | PCIe 5.0 x16 riser cable                        |  4  | Cable      | One per GPU                                                               |
+|  8  | PSU               | 2,000 W, native 12V-2x6                         |  2  | Power      | 4,000 W total; 240 V circuit required                                     |
+|  9  | GPU power cable   | 12V-2x6 / 12VHPWR, 600 W rated                  |  4  | Cable      | One per GPU                                                               |
+| 10  | Power cord        | Wall cord rated for the PSU                     |  2  | Cable      | One per supply                                                            |
+| 11  | Fan               | 120 mm case fan                                 | 18  | Cooling    | Single controller                                                         |
+| 12  | Frame housing     | Full housing set (printed or CNC)               |  1  | Housing    | CNC-machined solid aluminium; print the [STLs](../../4x-5090/stl-models) or CNC the [STEPs](../../4x-5090/step_models) |
+
+Next: [housing prep](../docs/prepare-me.md) · [assembly](../docs/assembly.md).

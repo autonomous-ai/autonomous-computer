@@ -1,6 +1,6 @@
 # Brainstorm & Discussion — Alternative Build Options
 
-Three alternative builds explored before settling on the 4× RTX PRO 6000 Blackwell + EPYC 9124 baseline. Each table lists the proposed swap, the rationale, and a verification note.
+Three alternative builds weighed while scoping the 4× RTX PRO 6000. All three were costed against a dual-socket EPYC 9124 server platform, which is the baseline they refer to below; the machine that shipped is the one in the [bill of materials](../bom/bom.md). Each table lists the proposed swap, the rationale, and a verification note.
 
 ---
 
